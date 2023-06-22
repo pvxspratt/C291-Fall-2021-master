@@ -1,0 +1,45 @@
+Pseudocode 1a
+Phoebe Spratt
+09/08/21
+
+~ ~ ~ Pseudocode ~ ~ ~
+
+int x
+int y
+
+While input is not Q, continue program
+  input an operation
+
+  switch operation choice
+
+    case '+'
+      Print "enter operands"
+      Take in the two operands, x and y
+      Print x + y
+      break
+    case '-'
+      Print "enter operands"
+      Take in the two operands, x and y
+      Print x - y
+      break
+    case '*'
+      Print "enter operands"
+      Take in the two operands, x and y
+      Print x * y
+      break
+    case '/'
+      Print "enter operands"
+      Take in the two operands, x and y
+        if y, or second operand, is 0
+          print "can't divide by 0"
+        else
+          Print x / y
+      break
+    case '\n'
+      break
+    default
+      print "invalid operation, choose from choices"
+      break
+    end case
+  end switch
+end while
